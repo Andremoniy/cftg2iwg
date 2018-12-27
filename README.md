@@ -3,9 +3,10 @@ The algorithm of converting is taken from the paper:
 
 https://link.springer.com/chapter/10.1007/978-3-662-44121-3_6
 
-Usage: python cftg2iwg.py <path to the rules file>
-For example: python cftg2iwg.py test.rules
+Usage: `python cftg2iwg.py <path to the rules file>`
+For example: `python cftg2iwg.py test.rules`
 
+```
 1. S -> A(a)
 2. A -> A(g(C,x1))
 3. A -> B(x1)
@@ -38,4 +39,4 @@ Transformed:
 23. (6,e)[] -> (6,e)[(6,e)]
 24. (6,1.2)[(6,e)] -> (6,1)[]
 25. (6,1.3)[(6,e)] -> (6,1)[]
-
+```
