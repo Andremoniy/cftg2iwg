@@ -1,3 +1,5 @@
+## A converter of a context-free tree grammar to an indexed grammar
+
 The algorithm of converting is taken from the paper:
 * M. Kanazawa: A Generalization of Linear Indexed Grammars Equivalent to Simple Context-Free Tree Grammars. FG 2014 Proceedings of the 19th International Conference on Formal Grammar - Volume 8612, 86-103 (2014)
 
